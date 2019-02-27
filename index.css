@@ -1,13 +1,12 @@
 body {
-    background-color: #282828
+    background-color: #282828;
 }
 
 a {
     color: white;
     text-align: center;
     font-size: 1.4em;
-    float: right;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 textarea {
@@ -16,5 +15,10 @@ textarea {
     height: 95%;
     background-color: #303030; 
     color: white;
-    font-size: 200%
+    font-size: 200%;
+}
+
+.hood {
+    display: flex;
+    justify-content: space-between
 }
